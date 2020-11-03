@@ -1,5 +1,5 @@
 require(downloader)
-my.path="~/Desktop/test"
+my.path="/pfs/out"
 
 zipdir1 <- "https://www.ebi.ac.uk/arrayexpress/files/E-MEXP-2458/E-MEXP-2458.raw.1.zip"
 zipdir2 <- "https://www.ebi.ac.uk/arrayexpress/files/E-MEXP-2458/E-MEXP-2458.raw.2.zip"
