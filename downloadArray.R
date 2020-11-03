@@ -11,7 +11,7 @@ dir.create(file.path(my.path, "dwl"), showWarnings=FALSE, recursive=TRUE)
 dir.create(file.path(my.path, "raw"), showWarnings=FALSE, recursive=TRUE)
 
 dwl.status1 <- download(zipdir1, destfile=file.path(my.path, "dwl", "E-MEXP-2458.raw.1.zip"))
-dwl.status2 <- download(zipdir1, destfile=file.path(my.path, "dwl", "E-MEXP-2458.raw.2.zip"))
+dwl.status2 <- download(zipdir2, destfile=file.path(my.path, "dwl", "E-MEXP-2458.raw.2.zip"))
 dwl.status3 <- download(dir3, destfile=file.path(my.path, "raw", "E-MEXP-2458.sdrf.txt"))
                                                           
 unzip(file.path(my.path, "dwl", "E-MEXP-2458.raw.1.zip"), exdir=file.path(my.path, "raw"))
