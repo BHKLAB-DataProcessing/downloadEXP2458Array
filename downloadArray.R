@@ -5,7 +5,7 @@ zipdir1 <- "https://www.ebi.ac.uk/arrayexpress/files/E-MEXP-2458/E-MEXP-2458.raw
 zipdir2 <- "https://www.ebi.ac.uk/arrayexpress/files/E-MEXP-2458/E-MEXP-2458.raw.2.zip"
 dir3 <- "https://www.ebi.ac.uk/arrayexpress/files/E-MEXP-2458/E-MEXP-2458.sdrf.txt"
 
-require(R.utils) || stop("Library R.utils is not available!")
+#require(R.utils) || stop("Library R.utils is not available!")
 
 dir.create(file.path(my.path, "dwl"), showWarnings=FALSE, recursive=TRUE)
 dir.create(file.path(my.path, "raw"), showWarnings=FALSE, recursive=TRUE)
